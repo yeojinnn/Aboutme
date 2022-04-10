@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* 링크 줄 없애기 */
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #faf8ef;
+}
+
+a:visited {
+  color: #faf8ef;
+}
+
+a:hover {
+  color: #222;
+}
+
+.profile {
+  max-width: 100%;
+  height: auto !important;
+}
+
+/* 페이지 왼쪽 사이드바 */
+.mainleft {
+  width: 20%;
+  float: left;
+  height: 100vh;
+  box-sizing: border-box;
+background: linear-gradient(#3366cc, #9966cc, #996699,
+   #cc6666, #ff6633);
+  padding: 10px;
+  padding-top: 25px;
+  position: fixed;
+}
+
+/* 페이지 오른쪽 콘텐츠 영역 */
+.mainright {
+  width: 80%;
+  float: right;
+  height: 100%;
+  box-sizing: border-box;
+  background: #faf8ef;
+  padding-left: 60px;
+  padding-top: 30px;
+  padding-right: 30px;
+}
+
+
+/**************************/
+/* 이름 영역 */
+.name {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+
+}
+
+/* 이미지 영역 */
+.profile {
+  border-radius: 100%;
+}
+
+/* 문서 내 이동 목록 */
+.menu {
+  font-size: 16px;
+  text-align: center;
+  line-height: 200%;
+}
+
+/* 문서 내 이동 메뉴 텍스트 서식 */
+#menutext {
+  font-size: 1.3em;
+  font-weight: bold;
+  line-height: 200%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  
+}
+
+#copyright {
+  text-align: center;
+  font-size: 10px;
+  color: #e2e2e2;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+
+}
+
+/**************************/
+/* 시작 부분 */
+
+#hello {
+  height: 100vh;
+  padding-top: 150px;
+  position: relative;
+  top: 100px;
+}
+
+
+#hack_ {
+  padding-left: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  background: linear-gradient(to right, #3366cc, #9966cc, #996699,
+  #cc6666, #ff6633);
+  color: transparent;
+  -webkit-background-clip: text;
+
+}
+
+#button {
+  margin-left: 30px;
+  border: 0;
+  text-align:center;
+  outline: none;
+  border-radius: 40px;
+  background: linear-gradient(to right, #3366cc, #9966cc, #996699);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  line-height:300%;
+}
+
+
+
+/**************************/
+/* 영역별 콘텐츠 높이 설정 */
+
+
+#main1 {
+  padding-top: 30px;
+  height: 100vh;
+}
+
+#aboutme {
+  padding-top: 30px;
+  height: 100vh;
+}
+
+#project {
+  padding-top: 30px;
+  height: 100vh;
+}
+
+#contact {
+  padding-top: 30px;
+  height: 100vh;
+}
+
+/**************************/
+/* main_6영역 */
+
+.intro1 {
+  font-size: 17px;
+  text-align: left;
+}
+
+.intro2 {
+  font-size: 13px;
+  color: gray;
+  text-align: left;
+}
+
+#main-6 {
+  width: 1000px;
+}
+
+#no1 {
+  text-align: center;
+  background-clip: border-box;
+  width:300px; 
+  height:100px;
+  background-origin: border-box;
+  display: inline-block;
+}
+
+#no2 {
+  text-align: center;
+  background-clip: border-box;
+  width:300px; 
+  height:100px;
+  background-origin: border-box;
+  display: inline-block;
+}
+
+#no3 {
+  text-align: center;
+  background-clip: border-box;
+  width:300px; 
+  height:100px;
+  background-origin: border-box;
+  display: inline-block;
+}
+
+#no4 {
+  text-align: center;
+  background-clip: border-box;
+  width:300px; 
+  height:100px;
+  background-origin: border-box;
+  display: inline-block;
+}
+
+#no5 {
+  text-align: center;
+  background-clip: border-box;
+  width:300px; 
+  height:100px;
+  background-origin: border-box;
+  display: inline-block;
+}
+
+#no6 {
+  text-align: center;
+  background-clip: border-box;
+  width:300px; 
+  height:100px;
+  background-origin: border-box;
+  display: inline-block;
+}
+
+/* main_6 이모지 텍스트 */
+.emoji {
+  font-size: 35px;
+  display: inline-block;
+  float: left;
+}
+
+
+/**************************/
+/* Aboutme 영역 */
+.float-wrap {
+  overflow: hidden;
+}
+
+.logo_img {
+  float: left;
+}
+
+.title-text {
+  font-size:18px;
+  font-weight: bold;
+  color: #282828;
+  float: left;
+}
+
+.year-text{
+  font-size:18px;
+  font-weight: bold;
+  color: #282828;
+  float: right;
+  padding-right: 90px;
+}
+
+.desc-text {
+  font-size: 15px;
+  line-height: 23px;
+}
+
+/**************************/
+/* Project 영역 */
+#lion {
+  background: url("img/LION.jpg") no-repeat;
+  background-size: cover;
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+h3 {
+  color: white;
+  left:50px;
+  bottom: 30px;
+  font-size: 70px;
+  text-shadow: 2px 3px 0 #000;
+  position: absolute;
+  font-weight: 800px;
+}
+
+h6 {
+  color: rgb(255, 153, 0);
+  left:50px;
+  bottom: 120px;
+  font-size: 70px;
+  text-shadow: 2px 3px 0 #000;
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800px;
+}
+
+
+/**************************/
+/* Contact 영역 */
+#sns {
+  width: 2000px;
+}
+
+#github {
+  text-align: left;
+  background-clip: border-box;
+  width:300px; 
+  height:100px;
+  background-origin: border-box;
+  display: inline-block;
+}
+
+#tistory {
+  text-align: left;
+  background-clip: border-box;
+  width:300px; 
+  height:100px;
+  background-origin: border-box;
+  display: inline-block;
+}
+
+#instagram {
+  text-align: left;
+  background-clip: border-box;
+  width:300px; 
+  height:100px;
+  background-origin: border-box;
+  display: inline-block;
+}
+
+.sns_1 {
+  font-size: 17px;
+  line-height: 170%;
+}
+
+.sns_2 {
+  font-size: 13px;
+  color: gray;
+  line-height: 170%;
+}
+
+#gradient {
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  /* color: rgb(255, 153, 0); */
+  background: linear-gradient(to left, #3366cc, #9966cc, #996699,
+  #cc6666, #ff6633);
+  color: transparent;
+  -webkit-background-clip: text;
+  padding-right:90px;
+}
